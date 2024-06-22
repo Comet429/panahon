@@ -3,36 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playwrite+DE+Grund&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Panahon</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Panahon Forcast</h1>
-        <p>
-          Wednesday 22:51, overcast clouds
-          <br />
-          Humidity: 86%, Wind: 4.63km/h
-        </p>
-      </div>
-      <div>☁ 16 °C</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Panahon Forcast</h1>
+          <p>
+            Wednesday 22:51, overcast clouds
+            <br />
+            Humidity: 86%, Wind: 4.63km/h
+          </p>
+        </div>
+        <div>☁ 16 °C</div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/Comet429" target="_blank">Jessie Polong</a>
-      and is
-      <a href="https://github.com/Comet429/panahon" target="_blank"
-        >on GitHub</a
-      >
-      hosted
-      <a href="https://panahon-app.netlify.app/" target="_blank">on Netlify</a>
-    </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/Comet429" target="_blank">Jessie Polong</a>
+        and is
+        <a href="https://github.com/Comet429/panahon" target="_blank"
+          >on GitHub</a
+        >
+        hosted
+        <a href="https://panahon-app.netlify.app/" target="_blank"
+          >on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>

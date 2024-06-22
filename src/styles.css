@@ -1,0 +1,19 @@
+body {
+  background: #f9f7fe;
+}
+
+.playwrite-de-grund-font {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.weather-app {
+  background: white;
+  margin: 42px 100px;
+  max-width: 600px;
+  padding: 40px;
+  box-shadow: 0 40px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 50px;
+}
